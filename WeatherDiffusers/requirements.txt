@@ -1,0 +1,10 @@
+# Core
+requests>=2.31.0
+python-dotenv>=1.0.1
+pillow>=10.3.0
+python-telegram-bot>=21.4
+
+# Optional: real diffusion models (GPU recommended)
+# diffusers[torch]>=0.29.0
+# torch -- install per your CUDA/CPU environment, e.g.:
+# pip install torch --index-url https://download.pytorch.org/whl/cu121
